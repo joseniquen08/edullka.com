@@ -7,7 +7,7 @@ export const ThemeToggle = ({ themeSelected, setThemeSelected, changeTheme }) =>
   return (
     <Menu as="div" className="relative sm:pr-1">
       <motion.div whileTap={{ scale: 0.85 }}>
-        <Menu.Button className="flex items-center justify-center p-2 text-4xl hover:bg-gray-200/60 dark:hover:bg-stone-800 rounded-xl focus:outline-none">
+        <Menu.Button className="flex items-center justify-center p-2 text-4xl hover:bg-gray-200/40 dark:hover:bg-stone-800 rounded-xl focus:outline-none">
           {
             'theme' in localStorage === true ? (
               themeSelected === "dark" ? (
@@ -35,7 +35,7 @@ export const ThemeToggle = ({ themeSelected, setThemeSelected, changeTheme }) =>
         leaveTo="transform opacity-0 scale-95"
       >
         <Menu.Items className="absolute z-40 right-0 mt-2 origin-top-right bg-white rounded-lg shadow-lg focus:outline-none dark:bg-stone-900">
-          <div className="bg-white border rounded-lg bg-opacity-10 dark:border-transparent">
+          <div className="bg-white border rounded-lg bg-opacity-5 dark:border-transparent">
             <div className="px-2.5 py-2">
               <Menu.Item as="div" className="focus:outline-none">
                 <RadioGroup value={themeSelected} onChange={setThemeSelected} >

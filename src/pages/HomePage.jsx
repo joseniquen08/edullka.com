@@ -1,8 +1,10 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { Camps } from "../components/Home/Camps";
 import { Hero } from "../components/Home/Hero";
+import { Methodology } from "../components/Home/Methodology";
 
-export const Home = () => {
+export const HomePage = () => {
 
   const [actives, setActives] = useState(0);
 
@@ -15,7 +17,8 @@ export const Home = () => {
     <div className="w-full bg-white dark:bg-stone-800 font-primary">
       <div className="max-w-7xl mx-auto">
         <Hero actives={actives}/>
-        <Hero actives={actives}/>
+        <Methodology/>
+        <Camps/>
       </div>
     </div>
   );
