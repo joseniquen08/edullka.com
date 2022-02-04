@@ -5,7 +5,7 @@ export const Camps = () => {
     <div id="campamentos" className="pt-20">
       <div className="px-4 mx-auto max-w-7xl 2xl:max-w-8xl sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-lg font-bold md:font-semibold tracking-wide text-pink-pantone-500 uppercase">Campamentos</h2>
+          <h2 className="text-lg font-bold tracking-wide uppercase text-pink-pantone-500">Campamentos</h2>
           <p className="mt-2 text-[1.95rem] font-semibold leading-10 tracking-normal text-stone-800 dark:text-white">
             Increíbles opciones novedosas
           </p>

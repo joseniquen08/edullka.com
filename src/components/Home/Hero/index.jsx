@@ -25,7 +25,7 @@ export const Hero = ({ actives }) => {
           <div className="z-20 w-full px-4 pb-7 pt-9 md:py-5 flex xs:justify-end items-center space-x-1.5 xs:space-x-3.5">
             <p className="w-full font-medium text-center break-words xs:w-64 xs:text-right md:text-lg text-stone-800 dark:text-white">¡Únete a nuestra comunidad en discord!</p>
             <div className="px-2">
-              <motion.a whileTap={{ scale: 0.95 }} whileHover={{ scale: 1.08 }} target='_blank' rel="noreferrer" href="https://discord.gg/Q2XKVdCse9" className="relative shadow-lg shadow-discord-500/40 flex items-center justify-center px-6 pt-2.5 pb-2 text-lg font-semibold text-white border border-transparent rounded-lg bg-discord-500 hover:bg-discord-500/90 space-x-2">
+              <motion.a whileTap={{ scale: 0.95 }} whileHover={{ scale: 1.06 }} target='_blank' rel="noreferrer" href="https://discord.gg/Q2XKVdCse9" className="relative shadow-lg shadow-discord-500/40 flex items-center justify-center px-6 pt-2.5 pb-2 text-lg font-semibold text-white border border-transparent rounded-lg bg-discord-500 hover:bg-discord-500/90 space-x-2">
                 <SiDiscord className="w-5 h-5"/>
                 <span>Discord</span>
                 <b className="absolute px-2.5 pt-[0.05rem] pb-0.5 text-sm bg-green-600 rounded -right-4 -top-3"><span className="text-xs font-semibold animate-pulse">En línea {actives}</span></b>
