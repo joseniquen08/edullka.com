@@ -15,7 +15,7 @@ export const HomePage = () => {
 
   return (
     <div className="w-full bg-white dark:bg-stone-800 font-primary">
-      <div className="max-w-7xl mx-auto">
+      <div className="mx-auto max-w-7xl">
         <Hero actives={actives}/>
         <Methodology/>
         <Camps/>

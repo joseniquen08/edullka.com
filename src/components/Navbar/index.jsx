@@ -41,7 +41,7 @@ export const Navbar = () => {
   }
 
   return (
-    <nav className={`sticky top-0 z-40 w-full font-primary bg-white ${ isOpen ? 'border-transparent' : 'border-b'} dark:bg-stone-900`}>
+    <nav className={`sticky top-0 z-40 w-full font-primary bg-white border-b ${ isOpen ? ' border-transparent' : ''} dark:bg-stone-900`}>
       <div className="relative">
         <div className="px-3 z-[100] mx-auto max-w-7xl dark:bg-stone-900">
           <div className="relative flex items-center justify-start h-16 sm:h-[4.5rem]">
