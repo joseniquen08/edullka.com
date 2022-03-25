@@ -13,9 +13,9 @@ export const MenuToggle = ({ toggle }) => {
     <motion.button
       onClick={toggle}
       whileTap={{ scale: 0.85 }}
-      className="inline-flex items-center justify-center rounded-xl hover:bg-gray-200/60 dark:hover:bg-stone-800 focus:outline-none px-2.5 pt-2.5 pb-2"
+      className="inline-flex items-center justify-center rounded-xl hover:bg-gray-200/60 focus:outline-none px-2.5 pt-2.5 pb-2"
     >
-      <svg width="20" height="20" viewBox="0 0 22 23" stroke="currentColor" aria-hidden="true" fill="none" className="text-black-pantone-500 dark:text-white">
+      <svg width="20" height="20" viewBox="0 0 22 23" stroke="currentColor" aria-hidden="true" fill="none" className="text-black-pantone-500">
         <Path
           variants={{
             closed: { d: "M 2 3 L 20 3" },

@@ -1,8 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { Camps } from "../components/Home/Camps";
+import { Activities } from "../components/Home/Activities";
 import { Hero } from "../components/Home/Hero";
-import { Methodology } from "../components/Home/Methodology";
 
 export const HomePage = () => {
 
@@ -14,11 +13,12 @@ export const HomePage = () => {
   }, []);
 
   return (
-    <div className="w-full bg-white dark:bg-stone-800 font-primary">
+    <div className="w-full bg-white font-primary">
       <div className="mx-auto max-w-7xl">
         <Hero actives={actives}/>
-        <Methodology/>
-        <Camps/>
+        <Activities/>
+        {/* <Methodology/>
+        <Camps/> */}
       </div>
     </div>
   );
