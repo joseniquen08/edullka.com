@@ -7,7 +7,7 @@ export const ModalLogin = ({ isOpen, closeModal }) => {
     <Transition appear show={isOpen} as={Fragment} >
       <Dialog
         as="div"
-        className="fixed inset-0 z-50 overflow-y-auto bg-slate-500/50 font-poppins"
+        className="fixed inset-0 z-50 overflow-y-auto bg-slate-500/50 font-primary"
         onClose={closeModal}
       >
         <div className="min-h-screen px-2.5 text-center">
@@ -42,7 +42,7 @@ export const ModalLogin = ({ isOpen, closeModal }) => {
                 <div className="space-y-4 md:col-span-1 md:space-y-5 md:px-3">
                   <Dialog.Title
                     as="h3"
-                    className="text-2xl font-medium tracking-tight leading-6 text-gray-900 md:text-3xl"
+                    className="text-2xl font-semibold tracking-tight leading-6 text-gray-900 md:text-3xl text-center"
                   >
                     ¡Bienvenido Edullker!
                   </Dialog.Title>
